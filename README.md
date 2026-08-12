@@ -17,24 +17,7 @@ A machine learning and interactive data analytics platform designed to uncover h
 - **Return & Revenue Aggregation Pipeline**: Extracts, cleans, and aggregates transactional records to isolate sales revenue, calculate negative returns, and evaluate actual return rate percentages.
 - **Dynamic Business Rule Insights**: Identifies operational anomalies and flags products as *Loss Making*, *High Return Risk*, *Low Performance*, or *Profitable*.
 - **Interactive Streamlit Dashboard**: Provides responsive visualization components including Category filtering, High Risk product reporting, Revenue vs. Return Rate scatter charts, and cluster summary statistics.
-- **Production-Ready & Highly Extensible**: Structured with clean separation between the data engineering/ML pipeline and the presentation interface.
-
-## Demo
-
-- **Live Demo Link**: [Launch Application on Streamlit Community Cloud](https://streamlit.io/) *(Placeholder)*
-- **Video Demo Link**: [Watch Project Walkthrough on YouTube](https://youtube.com/) *(Placeholder)*
-
-## Screenshots
-
-*Here are some visual insights and previews of the application interface and analysis flow:*
-
-| Streamlit Dashboard Overview | Revenue vs Return Rate Scatter Plot |
-| :---: | :---: |
-| ![Dashboard Overview](https://via.placeholder.com/800x450.png?text=Streamlit+Dashboard+Overview) | ![Revenue vs Return Rate Chart](https://via.placeholder.com/800x450.png?text=Revenue+vs+Return+Rate+Scatter+Plot) |
-
-| Elbow Method Optimization Curve | Product Clusters Visualization |
-| :---: | :---: |
-| ![Elbow Method Graph](https://via.placeholder.com/800x450.png?text=Elbow+Method+Curve) | ![Clustering Scatter Visualization](https://via.placeholder.com/800x450.png?text=Product+Clusters+Visualization) |
+- **Modular Project Structure**: Structured with a clear separation between the data processing, machine learning pipeline, and dashboard.
 
 ## Tech Stack
 
@@ -84,8 +67,8 @@ Hidden_Business_Loss_Detector_System_ML/
 Clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/jeelpatel3807/Hidden_Business_Loss_Detector_System_ML.git
+cd Hidden_Business_Loss_Detector_System_ML
 pip install -r requirements.txt
 ```
 
